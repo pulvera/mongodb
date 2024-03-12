@@ -1,0 +1,26 @@
+### Post employee
+POST http://localhost:3000/employees
+Content-Type: application/json
+
+{
+    "name": "RestAPI2",
+    "age": 25,
+    "address": "Lapasan1"
+}
+
+### Get all employee
+GET http://localhost:3000/employees
+
+### Get  employee by its id
+GET http://localhost:3000/employees/65eebdf5d0beb5fd34bab40f
+
+### Delete employee by its id
+DELETE http://localhost:3000/employees/65eebdf5d0beb5fd34bab40f
+
+### Patch employee by its id
+PATCH http://localhost:3000/employees/65eebde3d0beb5fd34bab40b
+Content-Type: application/json
+
+{
+"name": "USTP"
+}
